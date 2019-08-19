@@ -7,7 +7,7 @@ package com.ten951.design.single;
  * @date 2019-08-17 16:39
  */
 public class HungryModel {
-    static final HungryModel HUNGRY_MODEL = new HungryModel();
+    private static final HungryModel HUNGRY_MODEL = new HungryModel();
 
     private HungryModel() {
     }
