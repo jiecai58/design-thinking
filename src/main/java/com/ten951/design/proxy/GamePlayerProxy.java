@@ -14,6 +14,10 @@ public class GamePlayerProxy implements IGamePlayer {
         gamePlayer = new GamePlayer(this, name);
     }
 
+    public GamePlayerProxy(IGamePlayer gamePlayer) {
+        this.gamePlayer = gamePlayer;
+    }
+
     //代练杀怪
     @Override
     public void killBoss() {

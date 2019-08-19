@@ -17,5 +17,8 @@ public class Client {
         proxy.upgrade();
         //记录结束游戏时间
         System.out.println("结束时间是：2019-8-26 03:40");
+
+
+
     }
 }
