@@ -18,7 +18,12 @@ public class Client {
         //记录结束游戏时间
         System.out.println("结束时间是：2019-8-26 03:40");
 
+        Subject subject = new RealSubject();
 
+
+        //动态代理
+        Subject o = (Subject) SubjectDynamicProxy.newProxyInstance(subject);
+        o.doSomeThing("sssss");
 
     }
 }
